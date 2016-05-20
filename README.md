@@ -10,15 +10,20 @@ A simple tool that replaces CSGO's localised strings with strings from a user-cr
 
 ## Instructions
 1. Create an INI file and specify the names of the strings to replace and their values in the following format:
+
   ```
   Name="Value"
   ```
+
   For example:
+
   ```
   SFUI_Lobby_StatusRichPresence_competitive_lobby="MM lobby"
   SFUI_Lobby_StatusRichPresence_competitive_game="MM -"
   ```
+
 2. Open a command prompt at the location of `CSGO-Localised-String-Replacer.exe` and run the program, specifying the location of the locale file and the INI file. For example:
+
   ```
   C:\> CSGO-Localised-String-Replacer.exe "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\csgo_english.txt" "C:\strings.ini"
   ```
